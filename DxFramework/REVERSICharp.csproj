@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{83D6DF28-01CA-4CC6-AE98-5BB5F319C19C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DxFramework</RootNamespace>
+    <AssemblyName>DxFramework</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Reversi\BasicLookaheadRev.cs" />
+    <Compile Include="CheckBox.cs" />
+    <Compile Include="Reversi\FinalLookaheadRev.cs" />
+    <Compile Include="UserBox\Aisatsu.cs" />
+    <Compile Include="UserBox\DetailTab.cs" />
+    <Compile Include="DxFrameWork\Text.cs" />
+    <Compile Include="UserBox\GeneralTab.cs" />
+    <Compile Include="SelectedMode.cs" />
+    <Compile Include="UserBox\TabBase.cs" />
+    <Compile Include="DxFrameWork\MultiGraphicButton.cs" />
+    <Compile Include="Reversi\ArtificialIntelligence.cs" />
+    <Compile Include="Reversi\BasicLookahead.cs" />
+    <Compile Include="Reversi\Int.cs" />
+    <Compile Include="DxFrameWork\BasicInput.cs" />
+    <Compile Include="Reversi\Board.cs" />
+    <Compile Include="DxFrameWork\Button.cs" />
+    <Compile Include="DxFrameWork\DrawableBase.cs" />
+    <Compile Include="DxFrameWork\DxDLL.cs" />
+    <Compile Include="Reversi\FinalLookahead.cs" />
+    <Compile Include="GameScene.cs" />
+    <Compile Include="DxFrameWork\Graphic.cs" />
+    <Compile Include="GameUmpire.cs" />
+    <Compile Include="ReversiGraphic.cs" />
+    <Compile Include="Reversi\ILookaheadBase.cs" />
+    <Compile Include="main.cs" />
+    <Compile Include="MenuScene.cs" />
+    <Compile Include="Reversi\Game.cs" />
+    <Compile Include="DxFrameWork\Scene.cs" />
+    <Compile Include="DxFrameWork\test.cs" />
+    <Compile Include="DxFrameWork\Vector2.cs" />
+    <Compile Include="BoardGraphic.cs" />
+    <Compile Include="StonGraphic.cs" />
+    <Compile Include="UserBarGraphic.cs" />
+    <Compile Include="UserBox\UserBoxGraphic.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

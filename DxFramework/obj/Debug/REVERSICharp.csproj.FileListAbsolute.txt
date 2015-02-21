@@ -1,0 +1,12 @@
+C:\Users\Main\Documents\Visual Studio 2013\Projects\REVERSICSharp\DxFramework\bin\Debug\DxFramework.exe.config
+C:\Users\Main\Documents\Visual Studio 2013\Projects\REVERSICSharp\DxFramework\obj\Debug\DxFramework.exe
+C:\Users\Main\Documents\Visual Studio 2013\Projects\REVERSICSharp\DxFramework\obj\Debug\DxFramework.pdb
+C:\Users\Main\Documents\Visual Studio 2013\Projects\REVERSICSharp\DxFramework\obj\Debug\REVERSICharp.csprojResolveAssemblyReference.cache
+C:\Users\Main\Documents\Visual Studio 2013\Projects\REVERSICSharp\DxFramework\bin\Debug\DxFramework.exe
+C:\Users\Main\Documents\Visual Studio 2013\Projects\REVERSICSharp\DxFramework\bin\Debug\DxFramework.pdb
+C:\local dev\ReversiSimulator\DxFramework\bin\Debug\DxFramework.exe.config
+C:\local dev\ReversiSimulator\DxFramework\obj\Debug\DxFramework.exe
+C:\local dev\ReversiSimulator\DxFramework\obj\Debug\DxFramework.pdb
+C:\local dev\ReversiSimulator\DxFramework\bin\Debug\DxFramework.exe
+C:\local dev\ReversiSimulator\DxFramework\bin\Debug\DxFramework.pdb
+C:\local dev\ReversiSimulator\DxFramework\obj\Debug\REVERSICharp.csprojResolveAssemblyReference.cache

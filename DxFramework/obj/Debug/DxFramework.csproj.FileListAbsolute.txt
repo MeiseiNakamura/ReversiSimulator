@@ -1,0 +1,15 @@
+c:\users\gokoku houzyou\documents\visual studio 2013\Projects\DxFramework\DxFramework\bin\Debug\DxFramework.exe.config
+c:\users\gokoku houzyou\documents\visual studio 2013\Projects\DxFramework\DxFramework\bin\Debug\DxFramework.exe
+c:\users\gokoku houzyou\documents\visual studio 2013\Projects\DxFramework\DxFramework\bin\Debug\DxFramework.pdb
+c:\users\gokoku houzyou\documents\visual studio 2013\Projects\DxFramework\DxFramework\obj\Debug\DxFramework.csprojResolveAssemblyReference.cache
+c:\users\gokoku houzyou\documents\visual studio 2013\Projects\DxFramework\DxFramework\obj\Debug\DxFramework.exe
+c:\users\gokoku houzyou\documents\visual studio 2013\Projects\DxFramework\DxFramework\obj\Debug\DxFramework.pdb
+C:\Users\Main\Documents\DxFrameworkCSharp\DxFramework\bin\Debug\DxFramework.exe.config
+C:\Users\Main\Documents\DxFrameworkCSharp\DxFramework\bin\Debug\DxFramework.exe
+C:\Users\Main\Documents\DxFrameworkCSharp\DxFramework\bin\Debug\DxFramework.pdb
+C:\Users\Main\Documents\DxFrameworkCSharp\DxFramework\obj\Debug\DxFramework.csprojResolveAssemblyReference.cache
+C:\Users\Main\Documents\DxFrameworkCSharp\DxFramework\obj\Debug\DxFramework.exe
+C:\Users\Main\Documents\DxFrameworkCSharp\DxFramework\obj\Debug\DxFramework.pdb
+C:\Users\Main\Documents\Visual Studio 2013\Projects\REVERSICSharp\DxFramework\bin\Debug\DxFramework.exe.config
+C:\Users\Main\Documents\Visual Studio 2013\Projects\REVERSICSharp\DxFramework\obj\Debug\DxFramework.exe
+C:\Users\Main\Documents\Visual Studio 2013\Projects\REVERSICSharp\DxFramework\obj\Debug\DxFramework.pdb
