@@ -19,6 +19,7 @@ namespace DxFramework
         }
         public override void init()
         {
+
             var back = new Button(-5);
             back.color = DX.GetColor(0, 0, 50);
             back.mouseOnColor = back.color;

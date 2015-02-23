@@ -18,7 +18,7 @@ namespace DxFramework
 
             Text text1 = new Text();
             drawableList.Add(text1);
-            text1.text = "完全版にご期待ください ^ ^";
+            text1.text = "完全版にご期待ください。";
             text1.FontHandle = fontHandle1;
             text1.top = this.Top + new Vector2(100, 100);
           

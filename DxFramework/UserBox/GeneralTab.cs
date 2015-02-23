@@ -48,8 +48,8 @@ namespace DxFramework
             stext2.FontHandle = fontHandle1;
             stext2.top = this.Top + new Vector2(17, 195);
             
-            var checkBox1 = new CheckBox(3,this.Top + new Vector2(17, 220),1);
-            drawableList.Add(checkBox1.adaptButton);
+            var checkBox1 = new CheckBox(3,this.Top + new Vector2(17, 240),1);
+            //drawableList.Add(checkBox1.adaptButton);
             foreach (var itr in checkBox1.CheckButtonList)
             {
                 drawableList.Add(itr);
@@ -83,9 +83,9 @@ namespace DxFramework
             stext3.FontHandle = fontHandle1;
             stext3.top = this.Top + new Vector2(617, 195);
 
-            var checkBox2 = new CheckBox(2, this.Top + new Vector2(617, 250), 1);
-            checkBox2.adaptButtonSpan = 40;
-            drawableList.Add(checkBox2.adaptButton);
+            var checkBox2 = new CheckBox(2, this.Top + new Vector2(617, 270), 1);
+            //checkBox2.adaptButtonSpan = 40;
+            //drawableList.Add(checkBox2.adaptButton);
             foreach (var itr in checkBox2.CheckButtonList)
             {
                 drawableList.Add(itr);
@@ -107,15 +107,15 @@ namespace DxFramework
             stext4.FontHandle = fontHandle1;
             stext4.top = this.Top + new Vector2(317, 195);
 
-            var checkBox3 = new CheckBox(3,this.Top + new Vector2(317, 220),2);
-            drawableList.Add(checkBox3.adaptButton);
+            var checkBox3 = new CheckBox(3,this.Top + new Vector2(317, 240),2);
+            //drawableList.Add(checkBox3.adaptButton);
             foreach (var itr in checkBox3.CheckButtonList)
             {
                 drawableList.Add(itr);
             }
-            checkBox3.setText (1, "廃人レベル");
-            checkBox3.setText(2, "上級レベル");
-            checkBox3.setText(3, "中級レベル");
+            checkBox3.setText (1, "強い");
+            checkBox3.setText(2, "普通");
+            checkBox3.setText(3, "弱い");
             checkBox3.adaptedActionList[0] = () =>
             {
                 ai.finalLookTurn = 44;

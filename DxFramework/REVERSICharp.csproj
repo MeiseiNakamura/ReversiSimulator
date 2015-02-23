@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject />
+    <StartupObject>DxFramework.Test</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -45,7 +45,6 @@
     <Compile Include="UserBox\DetailTab.cs" />
     <Compile Include="DxFrameWork\Text.cs" />
     <Compile Include="UserBox\GeneralTab.cs" />
-    <Compile Include="SelectedMode.cs" />
     <Compile Include="UserBox\TabBase.cs" />
     <Compile Include="DxFrameWork\MultiGraphicButton.cs" />
     <Compile Include="Reversi\ArtificialIntelligence.cs" />
