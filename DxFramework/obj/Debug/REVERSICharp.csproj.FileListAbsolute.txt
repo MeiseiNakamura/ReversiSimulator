@@ -10,3 +10,9 @@ C:\local dev\ReversiSimulator\DxFramework\obj\Debug\DxFramework.pdb
 C:\local dev\ReversiSimulator\DxFramework\bin\Debug\DxFramework.exe
 C:\local dev\ReversiSimulator\DxFramework\bin\Debug\DxFramework.pdb
 C:\local dev\ReversiSimulator\DxFramework\obj\Debug\REVERSICharp.csprojResolveAssemblyReference.cache
+C:\Users\wang\Documents\ReversiSimulator\DxFramework\bin\Debug\DxFramework.exe.config
+C:\Users\wang\Documents\ReversiSimulator\DxFramework\obj\Debug\DxFramework.exe
+C:\Users\wang\Documents\ReversiSimulator\DxFramework\obj\Debug\DxFramework.pdb
+C:\Users\wang\Documents\ReversiSimulator\DxFramework\bin\Debug\DxFramework.exe
+C:\Users\wang\Documents\ReversiSimulator\DxFramework\bin\Debug\DxFramework.pdb
+C:\Users\wang\Documents\ReversiSimulator\DxFramework\obj\Debug\REVERSICharp.csprojResolveAssemblyReference.cache

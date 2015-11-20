@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace DxFramework
 {
@@ -48,7 +49,8 @@ namespace DxFramework
             stext2.FontHandle = fontHandle1;
             stext2.top = this.Top + new Vector2(17, 195);
             
-            var checkBox1 = new CheckBox(3,this.Top + new Vector2(17, 240),1);
+            var checkBox1 = new CheckBox(3,this.Top + new Vector2(17, 240),2);
+            umpire.gameMode = GameMode.PvC;
             //drawableList.Add(checkBox1.adaptButton);
             foreach (var itr in checkBox1.CheckButtonList)
             {
@@ -113,9 +115,9 @@ namespace DxFramework
             {
                 drawableList.Add(itr);
             }
-            checkBox3.setText (1, "強い");
-            checkBox3.setText(2, "普通");
-            checkBox3.setText(3, "弱い");
+            checkBox3.setText (1, "めっちょ強い");
+            checkBox3.setText(2, "強い");
+            checkBox3.setText(3, "普通");
             checkBox3.adaptedActionList[0] = () =>
             {
                 ai.finalLookTurn = 44;
@@ -180,6 +182,7 @@ namespace DxFramework
                     if (game.condition == Condition.pass)
                     {
                         text7.text = "パスとなります。進むボタンを押してください。";
+                       
                     }
                 }
                 if (umpire.playerType == PlayerType.non)
@@ -213,6 +216,7 @@ namespace DxFramework
                             if (game.blackScore == game.whiteScore)
                                 text6.text = "引き分けです。";
                         }
+
                     }
                 }
             };

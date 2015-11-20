@@ -34,6 +34,9 @@
   <PropertyGroup>
     <StartupObject>DxFramework.Test</StartupObject>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>0a5ae1c73546bdd214ddd0b7b03ad984_xxo.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
@@ -74,6 +77,12 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="0a5ae1c73546bdd214ddd0b7b03ad984_xxo.ico" />
+    <Content Include="9750894494f0846eab71ce95ed0cfae9_xxo.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

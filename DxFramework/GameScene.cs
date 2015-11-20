@@ -24,7 +24,7 @@ namespace DxFramework
             back.color = DX.GetColor(0, 0, 50);
             back.mouseOnColor = back.color;
             back.top = new Vector2(0, 0);
-            back.size = new Vector2(1600, 800);
+            back.size = new Vector2(1600, 1000);
            
             board = new ReversiGraphic();
             board.Top = new Vector2(5, 70);
@@ -51,7 +51,7 @@ namespace DxFramework
             foot.color = head.color;
             foot.mouseOnColor = foot.color;
             foot.top = new Vector2(0, bar.bottom.y + 5);
-            foot.size = new Vector2(1600, 900 - bar.bottom.y - 5);
+            foot.size = new Vector2(1600, 1000);
         }
         public override void update()
         {
@@ -64,7 +64,7 @@ namespace DxFramework
                 return;
             }
             if (umpire.playerType == PlayerType.user)
-            {
+            {                
                 board.userInput();
                 return;
             }

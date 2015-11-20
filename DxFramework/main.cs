@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Windows.Forms.VisualStyles;
 using DxLibDLL;
 using DxFramework.Reversi;
 
@@ -16,8 +17,15 @@ namespace DxFramework
 
             DX.SetWindowSizeChangeEnableFlag(DX.TRUE, DX.TRUE);
             DX.SetMainWindowText("");
-            DX.SetGraphMode(1600, 900, 32);
-            //  DX.SetWindowSizeExtendRate(0.9);
+            var w = System.Windows.Forms.Screen.PrimaryScreen.Bounds.Width;
+            var h = System.Windows.Forms.Screen.PrimaryScreen.Bounds.Height;
+
+            if (w / 1600.0 < 1)
+            {
+                DX.SetGraphMode(1600, h * 1600 / w, 32);
+                DX.SetWindowSizeExtendRate(w / 1600.0);
+            }
+            DX.SetGraphMode(1600, 1000, 32);
             DX.SetWindowInitPosition(-8, 0);
 
             if (DX.DxLib_Init() == -1) return;
